@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Security.Cryptography;
 
-
 namespace Szyfrator
 {
     public partial class Szyfrator : Form
@@ -81,6 +80,20 @@ namespace Szyfrator
         private void btnDekoduj_Click(object sender, EventArgs e)
         {
             txtout.Text = Decrypt(txtin.Text, klucz.Text);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+                    string[] lines = { txtin.Text, txtout.Text, klucz.Text };
+                    System.IO.File.WriteAllLines(@"plik.txt", lines);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string[] lines = System.IO.File.ReadAllLines(@"plik.txt");
+            txtin.Text = lines[0];
+            txtout.Text = lines[1];
+            klucz.Text = lines[2];
         }
     }
 }
