@@ -77,7 +77,7 @@
             this.Controls.Add(this.txtout);
             this.Controls.Add(this.txtin);
             this.Name = "Szyfrator";
-            this.Text = "Form1";
+            this.Text = "Szyfrator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
