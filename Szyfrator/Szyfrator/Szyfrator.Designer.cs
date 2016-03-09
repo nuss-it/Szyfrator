@@ -41,34 +41,34 @@
             // 
             // txtin
             // 
-            this.txtin.Location = new System.Drawing.Point(12, 89);
+            this.txtin.Location = new System.Drawing.Point(12, 71);
             this.txtin.Name = "txtin";
             this.txtin.Size = new System.Drawing.Size(341, 20);
-            this.txtin.TabIndex = 0;
+            this.txtin.TabIndex = 2;
             // 
             // txtout
             // 
-            this.txtout.Location = new System.Drawing.Point(11, 144);
+            this.txtout.Location = new System.Drawing.Point(12, 136);
             this.txtout.Name = "txtout";
             this.txtout.Size = new System.Drawing.Size(341, 20);
-            this.txtout.TabIndex = 1;
+            this.txtout.TabIndex = 5;
             // 
             // btnKoduj
             // 
-            this.btnKoduj.Location = new System.Drawing.Point(12, 115);
+            this.btnKoduj.Location = new System.Drawing.Point(12, 97);
             this.btnKoduj.Name = "btnKoduj";
             this.btnKoduj.Size = new System.Drawing.Size(126, 23);
-            this.btnKoduj.TabIndex = 2;
+            this.btnKoduj.TabIndex = 3;
             this.btnKoduj.Text = "Koduj";
             this.btnKoduj.UseVisualStyleBackColor = true;
             this.btnKoduj.Click += new System.EventHandler(this.btnKoduj_Click);
             // 
             // btnDekoduj
             // 
-            this.btnDekoduj.Location = new System.Drawing.Point(227, 115);
+            this.btnDekoduj.Location = new System.Drawing.Point(227, 97);
             this.btnDekoduj.Name = "btnDekoduj";
             this.btnDekoduj.Size = new System.Drawing.Size(126, 23);
-            this.btnDekoduj.TabIndex = 3;
+            this.btnDekoduj.TabIndex = 4;
             this.btnDekoduj.Text = "Dekoduj";
             this.btnDekoduj.UseVisualStyleBackColor = true;
             this.btnDekoduj.Click += new System.EventHandler(this.btnDekoduj_Click);
@@ -78,7 +78,7 @@
             this.klucz.Location = new System.Drawing.Point(12, 26);
             this.klucz.Name = "klucz";
             this.klucz.Size = new System.Drawing.Size(340, 20);
-            this.klucz.TabIndex = 4;
+            this.klucz.TabIndex = 1;
             // 
             // label1
             // 
@@ -91,7 +91,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(11, 192);
+            this.button1.Location = new System.Drawing.Point(12, 175);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(127, 23);
             this.button1.TabIndex = 6;
@@ -101,7 +101,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(225, 192);
+            this.button2.Location = new System.Drawing.Point(227, 175);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(127, 23);
             this.button2.TabIndex = 7;
@@ -120,7 +120,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(365, 244);
+            this.ClientSize = new System.Drawing.Size(365, 214);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);

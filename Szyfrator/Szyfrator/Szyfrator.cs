@@ -79,7 +79,8 @@ namespace Szyfrator
 
         private void btnDekoduj_Click(object sender, EventArgs e)
         {
-            txtout.Text = Decrypt(txtin.Text, klucz.Text);
+            txtout.Text=Decrypt(txtin.Text, klucz.Text);
+          
         }
 
         private void button1_Click(object sender, EventArgs e)
